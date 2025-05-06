@@ -1,5 +1,5 @@
 <!DOCTYPE html>
-<html lang="en">
+<html lang="jp">
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
@@ -8,7 +8,7 @@
 </head>
 <body>
     <div>
-        <input type="text" id="textbox1">
+        <input type="number" id="textbox1">
             <div>
                 <div id="type">ここに記号が表示されます</div>
                 <button  onclick="sign('+')">+</button>
@@ -18,11 +18,16 @@
             </div>
     </div>
     <div>
-        <input type="text" id="textbox2">
+        <input type="number" id="textbox2">
         <button onclick="run()">=</button> 
         <button onclick="refresh()">clear!</button>
     </div>
-    <div id="answer">0</div>
+    入力
+    <div id="answer3">0</div>
+    <div id="answer4">0</div>
+    出力
+    <div id="answer1">0</div>
+    <div id="answer2">0</div>
     <script src="./calculator.js"></script>
 </body>
 </html>
